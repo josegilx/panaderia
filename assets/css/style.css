@@ -1,7 +1,7 @@
-.body {
+/* .body {
   margin: 0;
   padding: 0;
-}
+} */
 /* Nav */
 .navbar {
   display: flex;
@@ -22,7 +22,7 @@
 }
 .header .title .sub-title {
   font-weight: 700;
-  color: ##442C2E;
+  color: #442C2E;
 }
 .header .slogan {
   text-align: center;
@@ -44,22 +44,31 @@
 }
 
 /* cards */
+.container{
+  width: 100vw;
+}
+
 .card {
   border: 1px solid #442C2E;
   border-radius: 4px;
-  width: 900px;
+  width: 70%;
   padding: 15px;
   display: flex;
   flex-direction: row;
   margin: 20px auto;
+  height: 200px;
+  overflow: auto;
 }
 .card-body {
   padding-left: 20px;
 }
+.card-body p{
+
+}
 .card-body .title {
   font-size: 26px;
   margin: 5px 0;
-  width: 100%;
+  /* width: 100%; */
   border-bottom: 1px solid #232f34;
 }
 .card-body .right {
@@ -70,4 +79,9 @@
 }
 .card-body .right .active {
   color: #442C2E;
+}
+
+.card-img{
+  width: 20%;
+  height: 150px;
 }

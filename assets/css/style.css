@@ -30,10 +30,13 @@
   font-size: 20px;
   margin-top: 5px;
 }
+
 .router-links {
+
   display: flex;
   justify-content: space-between;
 }
+
 .router-links .link {
   margin: 0 4px;
   text-decoration: none;
@@ -44,44 +47,151 @@
 }
 
 /* cards */
-.container{
-  width: 100vw;
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .card {
-  border: 1px solid #442C2E;
+  /* border: 1px solid #442C2E;
   border-radius: 4px;
-  width: 70%;
+  width: 50%;
   padding: 15px;
   display: flex;
   flex-direction: row;
   margin: 20px auto;
   height: 200px;
-  overflow: auto;
+  overflow: auto; */
+  border: 1px solid #442C2E;
+    border-radius: 4px;
+    width: 46%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    margin: 15px auto;
+    height: 180px;
+    /* overflow: auto; */
+
 }
 .card-body {
   padding-left: 20px;
 }
-.card-body p{
 
-}
 .card-body .title {
   font-size: 26px;
   margin: 5px 0;
-  /* width: 100%; */
+  width: 100%;
   border-bottom: 1px solid #232f34;
 }
-.card-body .right {
+.card-body .star-right {
   text-align: right;
 }
-.card-body .right .fa-star {
+.card-body .star-right .fa-star {
   color: #FEEAE6;
 }
-.card-body .right .active {
+.card-body .star-right .active {
   color: #442C2E;
 }
 
 .card-img{
   width: 20%;
-  height: 150px;
+  height: 100px;
+  /* background-color: lawngreen; */
+  /* background: url(../image/asemitas.jpg) center / contain no-repeat lawngreen; */
+  /* background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat; */
+  float: left;
+  margin-right: 1.5em;
+  /* margin-bottom: 5px; */
+}
+
+.footer{
+  display: flex;
+  background-color: #FEDBD0;
+}
+
+.footer .title {
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  color: #442C2E;
+  text-align: center;
+}
+
+.Copyright {
+  /* background-color: lightcoral; */
+  width: 30%;
+  border-right: 1px solid black;
+}
+
+.red-social-body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.red-social-body a{
+  text-decoration: none;
+  padding: 5px;
+  margin: 5px auto;
+  color: #442C2E;
+}
+
+.red-social-body .fa-instagram{
+  color: #c802a2;
+}
+.red-social-body .fa-whatsapp{
+  color: #43e361;
+}
+
+.localidad{
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+}
+
+.localidad-body{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* padding: 0px; */
+  /* margin-top: 10px; */
+  /* margin-bottom: 10px; */
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  border-right: 1px solid black;
+}
+
+.localidad p{
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.localidad address{
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.localidad-body .fa-map-signs{
+  color: #9f5c3f;
+}
+
+.localidad-body span{
+  font-weight: 700;
+  color: #442C2E;
+}
+
+.localidad .mapa {
+  /* width: 300px; */
+  height: 250px;
+  border: 0;
 }
